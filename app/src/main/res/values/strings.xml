@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">DesignLayoutWork</string>
     <string name="button">Button</string>
+    <string name="set_view_height">Set view height</string>
 </resources>
