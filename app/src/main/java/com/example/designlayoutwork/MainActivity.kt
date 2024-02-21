@@ -12,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         //checkElementCentringLayout()
-        checkScrollViewHandlingLayout()
+        //checkScrollViewHandlingLayout()
+        checkViewSquareLayout()
     }
 
     private fun checkElementCentringLayout(){
@@ -39,5 +40,9 @@ class MainActivity : AppCompatActivity() {
         catch (e: Exception ){
             0
         }
+    }
+
+    private fun checkViewSquareLayout(){
+        setContentView(R.layout.view_square)
     }
 }
