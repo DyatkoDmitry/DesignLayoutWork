@@ -5,5 +5,13 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.DesignLayoutWork" parent="Base.Theme.DesignLayoutWork" />
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="Theme.DesignLayoutWork" parent="Base.Theme.DesignLayoutWork" >
+        <item name="colorPrimaryDark">@color/black_green</item>
+    </style>>
 </resources>
